@@ -1,0 +1,168 @@
+header{
+    height: 70px;
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+}
+footer{
+    height: 70px;
+    display: flex;
+    background-color: rgb(164, 199, 228);
+    margin: 0;
+    align-items: center;
+    justify-content: space-around;
+}
+.div_footer{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-around;
+}
+.navesquerra{
+    width: 20%;
+    background-color: rgb(32, 32, 32);
+    justify-content: space-around;
+    color: white;
+    font-size: 10px;
+}
+/* La llista de l'esquerra */
+.navlliste{
+    position: absolute;
+}
+
+.navTitol{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(222, 231, 255);
+}
+.divimatge{
+    width: 40%;
+}
+.divtitol{
+    width: 60%;
+}
+h1{
+    
+    font-size: 40px;
+    margin-left: 20%;
+}
+.h2_titol{
+    font-size: 20px;
+    margin-left: 30%;
+}
+button{
+    color: white;
+    background-color: rgb(128, 193, 236);
+    border-radius: 5px;
+    font-size: 20px;
+    transition:color 1s ease;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    color: black;
+    background-color: white;
+}
+/* En cas de tenir que moure la posicio d'un boto,empleare aquesta clase */
+.posicio_boto{
+    margin-left:34%;
+}
+
+.navdescripcio{
+    margin: 14px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.divTitoDesc{
+    width: 40%;
+    height: 400px;
+}
+
+.divTextDesc{
+    width: 40%;
+    margin-top: 5%;
+}
+
+.navOffer{
+    background-color: rgb(128, 193, 236);
+}
+
+.posicioSubtitol{
+    margin-left: 30%;
+}
+
+.h2Offer{
+    margin-left: 25%;
+}
+
+.divFila1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.divImatge1{
+    background-color: white;
+    width: 20%;
+    margin-bottom: 20px;
+}
+.divImatge2{
+    background-color: white;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.navNeedWeb{
+    margin-left: 50px;
+}
+
+.divFormulari{
+    background-color: rgb(197, 197, 197);
+    border-radius: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+input{
+    border-radius: 15%;
+    background-color: rgb(197, 197, 197);
+    border-color: black;
+    transition: width 1s ease;
+}
+input:hover{
+    border-color: blue;
+}
+textarea{
+    background-color: rgb(197, 197, 197);
+    height: 70px;
+    width: 120%;
+    border-color: black;
+    transition: border 1s ease;
+}
+textarea:hover{
+    border-color: blue;
+}
+
+.margin_formulari{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* La part de l'esquerra */
+.margin_formulari2{
+    margin-bottom: 10px;
+}
+
+.divEsquerra{
+    transition: width 1s ease;
+}
+
+.divEsquerra:hover{
+    background-color: gray;
+}
