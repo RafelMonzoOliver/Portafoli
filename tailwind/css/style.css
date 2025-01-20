@@ -1,0 +1,21 @@
+button{
+    border-radius: 20px;
+    margin: 30px;
+    margin-left: 20%;
+    transition: background-color 1s;
+    transition: color 1s;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+}
+
+.fondo{
+    background-image: url(/imatges/portada-dia-programador-2560x950-1.jpg);
+    height: 200px;
+}
+
+.separacio{
+    margin-left: 41%;
+}
